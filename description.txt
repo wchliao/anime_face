@@ -1,0 +1,3 @@
+1,blue hair red eyes
+2,pink hair green eyes
+3,black hair yellow eyes

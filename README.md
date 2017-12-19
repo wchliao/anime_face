@@ -52,20 +52,20 @@ For example:
 |    Description    | Image |
 | ---------- | --- |
 | blue hair red eyes |  ![result1](https://github.com/benliaowc/anime_face/blob/master/samples/sample_1_1.jpg) |
-| pink hair green eyes|  ![result1](https://github.com/benliaowc/anime_face/blob/master/samples/sample_2_1.jpg) |
-| black hair yellow eyes |  ![result1](https://github.com/benliaowc/anime_face/blob/master/samples/sample_3_1.jpg) |
+| pink hair green eyes|  ![result2](https://github.com/benliaowc/anime_face/blob/master/samples/sample_2_1.jpg) |
+| black hair yellow eyes |  ![result3](https://github.com/benliaowc/anime_face/blob/master/samples/sample_3_1.jpg) |
 
 ## Usage
 
 ### Prerequisite
 
-First, put your training data under `./faces`.
+First, put your training data under `./faces/`.
 
 Second, please clone [skip-thoughts](https://github.com/ryankiros/skip-thoughts) and put it under `./model/`.
 
 Third, put your Tensorflow model under `./model/DCGAN/` if any.
 
-The directory structure will be `./model/skip-thoughts` and `./model/DCGAN`.
+The directory structure under `./model/` will be `./model/skip-thoughts/` and `./model/DCGAN/`.
 
 ### Train
 
@@ -75,7 +75,7 @@ python3 DCGAN.py --train
 
 ### Test (Image Generate)
 
-After executing the following commands, the images will be generated under `./samples`.
+After executing the following commands, the images will be generated under `./samples/`.
 
 ```bash
 python3 --generate -t [Description File] -n [# image per description]

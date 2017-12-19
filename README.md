@@ -73,7 +73,7 @@ The directory structure under `./model/` will be `./model/skip-thoughts/` and `.
 python3 DCGAN.py --train
 ```
 
-### Test (Image Generate)
+### Test (Generate Images)
 
 After executing the following commands, the images will be generated under `./samples/`.
 

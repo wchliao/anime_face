@@ -45,6 +45,10 @@ For example:
 
 ## Results
 
+Given text descriptions, the model will generate corresponding images with size 64*64.
+
+For example:
+
 |    Description    | Image |
 | ---------- | --- |
 | blue hair red eyes |  ![result1](https://github.com/benliaowc/anime_face/blob/master/samples/sample_1_1.jpg) |

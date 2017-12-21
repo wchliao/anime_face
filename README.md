@@ -22,7 +22,7 @@
 
 ## Introduction
 
-This is a anime character face generator implemented in Tensorflow.
+This is an anime character face generator implemented in Tensorflow.
 
 Given some text descriptions, the model is capable to generate some anime character faces that fit the descriptions.
 

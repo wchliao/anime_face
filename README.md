@@ -78,7 +78,7 @@ python3 DCGAN.py --train
 After executing the following commands, the images will be generated under `./samples/`.
 
 ```bash
-python3 --generate -t [Description File] -n [# image per description]
+python3 DCGAN.py --generate -t [Description File] -n [# image per description]
 ```
 
 * `[Description File]`: A text file that contains descriptions. See [description.txt](https://github.com/benliaowc/anime_face/blob/master/description.txt) as an example.

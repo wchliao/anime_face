@@ -32,7 +32,7 @@ The model is mixed with conditional Deep Convolutional Generative Adversarial Ne
 
 The training data are images of anime character faces.
 
-Thay are better to be squared, since those images will be resized to 64*64.
+They are better to be squared, since those images will be resized to 64*64.
 
 For example:
 

@@ -45,9 +45,9 @@ For example:
 
 Due to the storage limit of Github, only 200 pictures are uploaded as samples.
 
-If you want to train a model that can generate high quality pictures, you can find the original data set [here](https://drive.google.com/open?id=13G5wpkf3MSAMzRXVYI6TImDliXY1gY4d).
+More training data can be downloaded [here](https://drive.google.com/open?id=13G5wpkf3MSAMzRXVYI6TImDliXY1gY4d).
 
-> Thanks to En-Yu Fan, one of the TAs in Machine Learning and Having It Deep and Structured 2017 Spring, National Taiwan University, to collect data.
+> Thanks to En-Yu Fan for collecting the training data.
 
 ## Results
 

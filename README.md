@@ -43,6 +43,12 @@ For example:
 ![example5](https://github.com/benliaowc/anime_face/blob/master/faces/110.jpg)
 ![example6](https://github.com/benliaowc/anime_face/blob/master/faces/184.jpg)
 
+Due to the storage limit of Github, only 200 pictures are uploaded as samples.
+
+If you want to train a model that can generate high quality pictures, you can find the original data set [here](https://drive.google.com/open?id=13G5wpkf3MSAMzRXVYI6TImDliXY1gY4d).
+
+> Thanks to En-Yu Fan, one of the TAs in Machine Learning and Having It Deep and Structured 2017 Spring, National Taiwan University, to collect data.
+
 ## Results
 
 Given text descriptions, the model will generate corresponding images with size 64*64.
@@ -85,10 +91,3 @@ python3 DCGAN.py --generate -t [Description File] -n [# image per description]
 
 * `[# image per description]`: Number of images that will be generated per desciprtion. Recommended number: 1.
 
-## Reference
-
-Thanks to En-Yu Fan, one of the TAs in Machine Learning and Having It Deep and Structured 2017 Spring, National Taiwan University, to collect data.
-
-Due to the storage limit of Github, only 200 pictures are uploaded as samples.
-
-If you want to train a model that can generate high quality pictures, please go find more training data.

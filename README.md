@@ -91,7 +91,7 @@ python3 DCGAN.py --generate -t [Description File] -n [# image per description]
 
 * `[# image per description]`: Number of images that will be generated per desciprtion. Recommended number: 1.
 
-### Reference
+## Reference
 
 The code is modified from [text-to-image](https://github.com/paarthneekhara/text-to-image).
 

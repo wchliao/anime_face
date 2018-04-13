@@ -26,7 +26,9 @@ This is an anime character face generator implemented in Tensorflow.
 
 Given some text descriptions, the model is capable to generate some anime character faces that fit the descriptions.
 
-The model is mixed with conditional Deep Convolutional Generative Adversarial Networks (DCGAN) and Least Squares Generative Adversarial Networks (LSGAN).
+The model is mixed with conditional 
+[Deep Convolutional Generative Adversarial Networks (DCGAN)](https://arxiv.org/pdf/1511.06434.pdf) and 
+[Least Squares Generative Adversarial Networks (LSGAN)](https://arxiv.org/pdf/1611.04076.pdf).
 
 ## Training Data
 

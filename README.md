@@ -47,7 +47,7 @@ For example:
 
 Due to the storage limit of Github, only 200 pictures are uploaded as samples.
 
-More training data can be downloaded [here](https://drive.google.com/open?id=13G5wpkf3MSAMzRXVYI6TImDliXY1gY4d).
+More training data can be downloaded [here](https://drive.google.com/open?id=1K0vviK7fi1XiJml_aXNdcq1rJlfa3pEC).
 
 > Thanks to En-Yu Fan for collecting the training data.
 

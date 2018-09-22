@@ -31,7 +31,6 @@ reduced_text_dim = 256
 learning_rate = 0.0002
 momentum = 0.5
 max_epoch = 300
-max_epoch = 10
 
 ######################
 

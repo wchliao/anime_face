@@ -14,7 +14,7 @@ import scipy.misc
 
 image_path = 'faces/'
 tag_file = 'tags_clean.csv'
-model_file = './model/DCGAN/model.ckpt'
+model_file = './model/LSGAN/model.ckpt'
 sample_path = 'samples/'
 
 ############################
@@ -53,7 +53,7 @@ def parse_args():
     return parser.parse_args()
 
 
-class DCGAN():
+class LSGAN():
     def __init__(self, batch_size, image_size, caption_vec_size, 
             noise_dim, channel_dim, reduced_text_dim, momentum):
         
@@ -227,7 +227,7 @@ class DCGAN():
 
 
 def train():
-    model = DCGAN(
+    model = LSGAN(
             batch_size = batch_size, 
             image_size = image_size, 
             caption_vec_size = caption_vec_size, 
@@ -302,7 +302,7 @@ def train():
 
 
 def generate(testing_file, generate_num):
-    model = DCGAN(
+    model = LSGAN(
             batch_size = generate_num, 
             image_size = image_size, 
             caption_vec_size = caption_vec_size, 
